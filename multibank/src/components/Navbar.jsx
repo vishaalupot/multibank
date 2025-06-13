@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-[#0C101D] text-white text-sm">
+    <div className="w-full bg-[#0C101D] text-white text-sm shadow-xl">
       {/* Top Strip */}
       <div className="flex justify-between items-center px-4 md:px-16 py-2 border-b border-[#1C2230]">
         <div className="flex space-x-4">

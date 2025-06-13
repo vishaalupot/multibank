@@ -16,5 +16,30 @@ a {
 
 // Example utility class you want to reuse manually
 .button-primary {
-  @apply bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-2 px-4 rounded;
+  background: $primary-button-color;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.button-landing{
+  border: 1px solid $primary-button-color;
+  border-radius: 4px;
+
+  border: 1px solid transparent;
+  border-image: $secondary-button-color;
+  border-image-slice: 1;
+
+  background: $secondary-button-color;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-color{
+  background-color: $primary-color;
+}
+
+.landing-page-textcolor{
+  background: $secondary-button-color;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
