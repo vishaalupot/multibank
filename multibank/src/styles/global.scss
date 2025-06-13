@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Import custom Sass variables
+@import './variables';
+
+// Global resets or typography overrides
+body {
+  @apply font-sans text-gray-900 bg-white;
+}
+
+a {
+  @apply text-blue-600 hover:underline transition-colors duration-200;
+}
+
+// Example utility class you want to reuse manually
+.button-primary {
+  @apply bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-2 px-4 rounded;
+}
