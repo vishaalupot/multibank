@@ -38,8 +38,22 @@ a {
   background-color: $primary-color;
 }
 
-.landing-page-textcolor{
+.gradient-textcolor{
   background: $secondary-button-color;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.product-bg-colors{
+  background-image: linear-gradient(to bottom right, $primary-color, $primary-color, #1e293b);
+}
+
+.product-card{
+  background-image: radial-gradient(50% 50% at 15.31% 50.26%,#0f182d 0,#0b1120 100%);
+}
+
+.final-part2{
+  background-image: url(https://tradfi.multibankgroup.com/_next/image?url=%2Fshared%2Fstriped-background-colored.webp&w=3840&q=100);
+  background-color: $primary-color ;
+  background-position: inherit;
 }

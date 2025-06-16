@@ -20,10 +20,10 @@ export default function Landing() {
         {/* Main Heading */}
         <div className="mb-8">
           <h1 className="text-5xl md:text-6xl font-semibold text-white mb-2">
-           <span className='landing-page-textcolor'>Life is  </span> Better
+           <span className='gradient-textcolor'>Life is  </span> Better
           </h1>
           <h1 className="text-5xl md:text-6xl font-semibold text-white">
-            with <span className='landing-page-textcolor'>Money</span>
+            with <span className='gradient-textcolor'>Money</span>
           </h1>
         </div>
         
